@@ -1,6 +1,8 @@
 class CurrencyConverter {
     constructor() {
-        this.apiBase = 'http://localhost:8000';
+        this.apiBase = 'https://currency-calculator-backend-by88.onrender.com/';
+        //если локал то http://localhost:8000
+        //если Render то https://currency-calculator-backend-by88.onrender.com/
         this.currencies = {};
         this.init();
     }
